@@ -1,0 +1,22 @@
+.dropdown-menu-item {
+    font-family: inherit;
+    font-size: 0.85em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-style: none;
+  }
+
+  .dropdown-menu-item:hover {
+    cursor: pointer;
+    background: #d8d8d8;
+    transition: 0.2s;
+  }
+  
+  .dropdown-menu-item:first-child {
+    margin-top: 5px;
+  }

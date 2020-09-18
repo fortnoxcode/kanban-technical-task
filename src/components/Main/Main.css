@@ -1,0 +1,35 @@
+main {
+    margin: 55px 0px;
+    height: calc(100vh - 110px);
+  }
+
+  .boardholder {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: calc(100% - 40px);
+    min-width: 314px;
+    padding: 20px;
+    background: #0079BF;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #CBCBCB;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-track-piece:horizontal {
+    background: #ffffff;
+  }
+
+@media (max-width: 377px) {
+  .boardholder {
+    height: 100vh;
+  }
+}

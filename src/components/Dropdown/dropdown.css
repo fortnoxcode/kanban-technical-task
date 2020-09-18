@@ -1,0 +1,31 @@
+.arrow-dropdown-btn-menu {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 110px;
+    right: 9px;
+    top: 45px;
+    background-color: #EBECF0;
+    border-radius: 10px;
+    cursor: default;
+  }
+
+  /* .arrow-dropdown-btn {
+    transition: 0.5s;
+  } */
+  .arrow-dropdown-img {
+    transition: transform 0.5s;
+  }
+
+  .arrow-dropdown-img.open {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+  }
+
+  /* .arrow-dropdown-btn.open {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+  } */
