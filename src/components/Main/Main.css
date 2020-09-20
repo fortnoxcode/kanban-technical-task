@@ -31,5 +31,9 @@ main {
 @media (max-width: 377px) {
   .boardholder {
     height: 100vh;
+    flex-direction: column;
+  }
+  .todoList {
+    margin-bottom: 30px;
   }
 }
